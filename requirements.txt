@@ -1,7 +1,5 @@
 Flask
 boto3
-opencv-python
-mediapipe
-numpy
 requests
+gunicorn
 python-dotenv

@@ -17,7 +17,7 @@ s3 = boto3.client('s3',
 )
 
 BUCKET_NAME = 'iaspac'
-IA_URL = 'http://<IA_HOST>/analyze'  # Reemplaza <IA_HOST> con el URL de tu servicio de IA en Railway
+IA_URL = 'http://web-production-df8be.up.railway.app/analyze'  # Reemplaza <IA_HOST> con el URL de tu servicio de IA en Railway
 
 allowed_extensions = {'jpg', 'jpeg', 'png'}
 
